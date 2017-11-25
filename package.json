@@ -1,0 +1,27 @@
+{
+  "name": "twit_bot",
+  "version": "1.0.0",
+  "description": "twitter bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "bot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandongatlin/twit_bot.git"
+  },
+  "keywords": [
+    "twitter",
+    "twit",
+    "bot"
+  ],
+  "author": "bradon gatlin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brandongatlin/twit_bot/issues"
+  },
+  "homepage": "https://github.com/brandongatlin/twit_bot#readme",
+  "dependencies": {
+    "twit": "^2.2.9"
+  }
+}
