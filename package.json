@@ -22,6 +22,7 @@
     },
     "homepage": "https://github.com/brandongatlin/twit_bot#readme",
     "dependencies": {
+        "geocoder": "^0.2.3",
         "twit": "^2.2.9"
     }
 }

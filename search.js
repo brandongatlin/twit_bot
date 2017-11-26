@@ -1,12 +1,8 @@
 var Twit = require('twit');
 var geocoder = require('geocoder');
 
-var T = new Twit({
-  consumer_key: 'vgYGVmhdoozRKGBOF7ENYIYL9',
-  consumer_secret: 'sYSj1tA1Htg6ZmGXmBEBMpjajjU3PwiIp3y5rsGnknCnphV38K',
-  access_token: '932033286221778949-veHvgzbutjalbBQe4mFZzIgsxTa93lT',
-  access_token_secret: 'HcjKttX2unOiy7xJFBqcuuaPVIJC8ZHECApE6Do3BAjvd',
-});
+var config = require('./config'); //location of api keys
+var T = new Twit(config); //api keys
 
 var qLat = "";
 var qLng = "";
